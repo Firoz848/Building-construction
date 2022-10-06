@@ -1,0 +1,727 @@
+/* =========================================
+=============== Xxl Device =================
+==========================================*/
+@media only screen and (min-width: 1200px) {
+    .hero-body {
+        max-width: 71%;
+        padding-top: 184px;
+        height: 60vh;
+        justify-content: end!important;
+    }
+    .footer-bottom .list-unstyled {
+        justify-content: end!important;
+    }
+    .footer-area .para {
+        margin-left: 148px;
+    }
+    .footer-area .sub-heading {
+        margin-left: 25px;
+    }
+}
+
+/* ========================================
+================ Xl Device ===============
+=========================================*/
+@media only screen and (max-width: 1199.98px) {
+    .hero-body {
+        max-width: 71%;
+        padding-top: 204px;
+        height: 51vh;
+    }
+    .footer-bottom .list-unstyled {
+        justify-content: end!important;
+    }
+}
+
+/* ============================================
+================== Medium Device ==============
+=============================================*/
+
+@media only screen and (max-width: 991.98px) {
+    .hero-body {
+        padding-top: 159px;
+        height: 57vh;
+    }
+    .hero-area .hero-sub-heading {
+        padding-top: 33px;
+    }
+    .hero-area .hero-btn {
+        margin-top: 19px;
+    }
+}
+
+/* ========================================
+=============== 820px Device ==============
+=========================================*/
+@media only screen and (max-width: 820.98px) {
+    .hero-area .hero-sub-heading {
+        padding-top: 41px;
+    }
+    .hero-area .hero-btn {
+        margin-top: 27px;
+    }
+    .hero-contact {
+        background: #fab702;
+        height: 10vh;
+    }
+    button.btn.btn-light.text-warning {
+        padding-top: 11px;
+    }
+}
+
+/* 810px Device */
+@media only screen and (max-width: 810.98px) {
+    .hero-contact {
+        background: #fab702;
+        height: 7vh;
+    }
+    .hero-area .hero-sub-heading {
+        padding-top: 31px;
+    }
+    .hero-area .hero-btn {
+        margin-top: 10px;
+    }
+    button.btn.btn-light.text-warning {
+        padding-top: 11px;
+    }
+}
+
+/* ========================================
+============== Small device ===============
+=========================================*/
+@media only screen and (max-width: 767.98px) {
+    .hero-area .heading, .text {
+        margin-top: 15px;
+    }
+    .hero-contact h2 {
+        font-size: 15px;
+    }
+    .hero-area .hero-sub-heading {
+        padding-top: 6px;
+        text-align: center;
+        margin: auto;
+    }
+    .hero-area .hero-btn {
+        width: 60%;
+    }
+    
+    /* Client area */
+    .client-comment .contact-button {
+        text-align: center;
+    }
+
+    /* News area */
+    .card-body .dream-card {
+        margin-bottom: -16px;
+    }
+
+    /* Footer area */
+    .col-sm-12 {
+        text-align: center;
+    }
+    .footer-area .para {
+        font-size: 11px;
+        margin-bottom: 0;
+        margin-top: 7px;
+        margin-left: 0;
+    }
+    .footer-bottom .list-unstyled {
+        justify-content: center!important;
+    }
+    .footer-area, 
+    .contact-item, 
+    .mailing-item {
+        margin-top: 38px;
+        text-align: center;
+    }
+    .footer-area .social-icon {
+        margin-left: 80px;
+        padding-bottom: 18px;
+    }
+}
+
+/* =======================================
+============= Extra small device =========
+========================================*/
+@media only screen and (max-width: 575.98px) {
+    .main-menu .nav-link {
+        text-align: center;
+        width: 100%;
+    }
+
+/* Hero area */
+.hero-area .heading {
+    margin-top: 46px;
+    font-size: 23px;
+}
+.hero-area .hero-sub-heading {
+    padding-top: 16px;
+}
+.hero-contact .btn {
+    background: #fab702;
+    color: white!important;
+    margin-top: 15px;
+}
+.hero-contact h2 {
+    font-size: 14px;
+}
+.hero-area .col-md-9 {
+    width: 73%;
+    padding-left: 0;
+}
+
+/* Service area */
+.content-area, .media {
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+/* Work area */
+.gallery .col-md-4 {
+    width: 33%;
+    /* display: inline-block; */
+}
+
+/* Feedback area */
+.feedback-area .col-md-3 {
+    text-align: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+/* Client area */
+.client-area .col-md-3 {
+    width: 25%;
+}
+.client-content, .client-para {
+    display: inline-block;
+}
+.client-area .client-comment {
+    overflow: hidden;
+}
+.client-area .client-body {
+    width: 100%;
+}
+.client-comment .contact-button {
+    /* padding-top: 20px; */
+    text-align: center;
+    margin: auto;
+    padding-top: 0;
+}
+
+/* Service-area */
+.service-heading {
+    margin-top: 74px;
+}
+
+/* Footer area */
+.footer-area .news {
+    width: 100%;
+
+}
+.footer-area .para {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    margin-left: 0;
+}
+.footer-area .sub-heading {
+    margin-left: 0;
+}
+.footer-bottom .footer-nav {
+    margin-top: 16px;
+}
+.footer-area .news-item {
+    text-align: center;
+}
+} 
+.footer-area .news {
+    width: 43%;
+    height: 83px;
+}
+
+/* ========================================
+============= 512px Device ================
+=========================================*/
+@media only screen and (max-width: 512.98px) {
+    .header .top-bar {
+        display: none;
+    }
+    .hero-area .hero-sub-heading {
+        padding-top: 16px;
+    }
+    .hero-contact .btn {
+        margin-top: 16px;
+    }
+}
+
+/* ========================================
+============== 434px Device ===============
+=========================================*/
+@media only screen and (max-width: 434.98px) {
+    .hero-area .hero-body {
+        margin-bottom: 38px;
+        padding-top: 105px;
+        height: 47vh;
+    }
+    .service-heading {
+        margin-top: 43px;
+    }
+}
+
+/* ========================================
+=============== 428px Device ==============
+=========================================*/
+@media only screen and (max-width: 428.98px) {
+
+}
+/* ========================================
+=============== 414px Device ==============
+=========================================*/
+@media only screen and (max-width: 414.98px) {
+    .top-bar {
+        display: none;
+    }
+    .hero-area .hero-body {
+        margin-left: 49px;
+        padding-top: 91px;
+        height: 44vh;
+    }
+    .hero-area .heading {
+        margin-top: 43px;
+        text-align: center;
+        font-size: 23px;
+        display: inline;
+    }
+    .hero-area .text {
+        color: white;
+        margin-top: 8px;
+    }
+    .hero-contact .hero-btn {
+        width: 62%;
+    }
+    .hero-contact .btn {
+        background: #fab702;
+        color: white!important;
+    }
+    .hero-area .hero-sub-heading {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 26px;
+    }
+    .hero-area .hero-sub {
+        display: inline;
+    }
+    .hero-contact .hero-btn {
+        width: 60%;
+        margin-top: 13px;
+    }
+    
+    /* Service area */
+    .service-heading {
+        margin-top: 43px;
+    }
+    /* Service card */
+    .service-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .news-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .card-style-2,
+    .card-style-3 {
+        margin-top: 20px;
+    }
+    
+    /* refurbishment area */
+    .refurbishment-media {
+        width: 100%;
+    }
+    .refurbishment-content {
+        width: 100%;
+    }
+    .filter {
+        padding: 0;
+    }
+    
+    /* Footer area */
+    .footer-area .post-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .news {
+        width: 63%;
+    }
+    .footer-area .contact-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .mailing-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .social-icon {
+        margin: auto;
+        width: 25%;
+    }
+    .footer-area .copy-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .copy-content {
+        width: 100%;
+    }
+    }
+
+/* ==========================
+========= 375px Device ======
+===========================*/
+@media only screen and (max-width: 375.98px) {
+    .top-bar {
+        display: none;
+    }
+    .hero-area .hero-body {
+        margin-left: 49px;
+        padding-top: 119px;
+        height: 51vh;
+    }
+    .hero-area .heading {
+        margin-top: 43px;
+        text-align: center;
+        font-size: 23px;
+        display: inline;
+    }
+    .hero-area .text {
+        color: white;
+        margin-top: 8px;
+    }
+    
+    .hero-contact .hero-btn {
+        width: 62%;
+    }
+    .hero-contact .btn {
+        background: #fab702;
+        color: white!important;
+    }
+    .hero-area .hero-sub-heading {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 4px;
+    }
+    .hero-area .hero-sub {
+        display: inline;
+    }
+    .hero-contact .hero-btn {
+        width: 63%;
+        margin-top: 13px;
+        color: white;
+    }
+        
+    /* Service card */
+    .service-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .news-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .card-style-2,
+    .card-style-3 {
+        margin-top: 20px;
+    }
+    
+    /* refurbishment area */
+    .refurbishment-media {
+        width: 100%;
+    }
+    .refurbishment-content {
+        width: 100%;
+    }
+    .filter {
+        padding: 0;
+    }
+    
+    /* Footer area */
+    .footer-area .post-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .news {
+        width: 63%;
+    }
+    .footer-area .contact-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .mailing-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .social-icon {
+        margin: auto;
+        width: 25%;
+    }
+    .footer-area .copy-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .copy-content {
+        width: 100%;
+    }
+}
+
+/* ================================
+============= 372px Device ======== 
+=================================*/
+@media only screen and (max-width: 372px) {
+    .hero-area .hero-sub-heading {
+        padding-top: 2px;
+    }
+    .hero-contact .hero-btn {
+        margin-top: 3px;
+    }
+}
+
+/* =============================== 
+========= 36px device ============
+================================ */
+@media only screen and (max-width: 360.98px) {
+
+    /* Topbar */
+    .top-bar {
+        display: none; 
+    }
+
+    /* Hero area */
+    .hero-area .hero-body {
+        margin-left: 49px;
+        padding-top: 73px;
+    }
+    .hero-area .heading {
+        margin-top: 43px;
+        text-align: center;
+        font-size: 23px;
+        display: inline;
+    }
+    .hero-area .text {
+        color: white;
+        margin-top: 8px;
+    }
+    
+   
+    .hero-contact .hero-btn {
+        width: 62%;
+    }
+    .hero-contact .btn {
+        background: #fab702;
+        color: white!important;
+    }
+    .hero-area .hero-sub-heading {
+        padding-top: 2px;
+    }
+    .hero-area .hero-sub {
+        display: inline;
+    }
+    .hero-contact .hero-btn {
+        width: 64%;
+        margin-top: 10px;
+        color: white;
+        margin-top: 3px;
+    }
+    
+    /* Service area */
+    .service-heading {
+        margin-top: 43px;
+    }
+    
+    /* Service card */
+    .service-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .news-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .card-style-2,
+    .card-style-3 {
+        margin-top: 20px;
+    }
+    
+    /* refurbishment area */
+    .refurbishment-media {
+        width: 100%;
+    }
+    .refurbishment-content {
+        width: 100%;
+    }
+    .filter {
+        padding: 0;
+    }
+    
+    /* Footer area */
+    .footer-area .post-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .news {
+        width: 63%;
+    }
+    .footer-area .contact-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .mailing-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .social-icon {
+        margin: auto;
+        width: 25%;
+    }
+    .footer-area .copy-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .copy-content {
+        width: 100%;
+    }
+    }
+
+
+/* =============================== 
+========= 320px device ===========
+================================ */
+@media only screen and (max-width: 320.98px) {
+
+    /* Topbar */
+    .top-bar {
+        display: none;
+    }
+    .hero-area .hero-body {
+        margin-left: 49px;
+        padding-top: 73px;
+        margin-bottom: 179px;
+    }
+    .hero-area .heading {
+        margin-top: 43px;
+        text-align: center;
+        font-size: 23px;
+        display: inline;
+    }
+    .hero-area .text {
+        color: white;
+        margin-top: 8px;
+    }
+    .hero-contact .hero-btn {
+        width: 62%;
+    }
+    .hero-contact .btn {
+        background: #fab702;
+        color: white!important;
+    }
+    .hero-area .hero-sub-heading {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .hero-area .hero-sub {
+        display: inline;
+    }
+    .hero-contact .hero-btn {
+        width: 66%;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    /* Service area */
+    .service-heading {
+        margin-top: 43px;
+    }
+    
+    /* Service card */
+    .service-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .news-area
+    .card-style-1,
+    .card-style-2,
+    .card-style-3 {
+        width: 100%;
+    }
+    .card-style-2,
+    .card-style-3 {
+        margin-top: 20px;
+    }
+    
+    /* refurbishment area */
+    .refurbishment-media {
+        width: 100%;
+    }
+    .refurbishment-content {
+        width: 100%;
+    }
+    .filter {
+        padding: 0;
+    }
+    
+    /* Footer area */
+    .footer-area .post-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .news {
+        width: 63%;
+    }
+    .footer-area .contact-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .mailing-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 41px;
+    }
+    .footer-area .social-icon {
+        margin: auto;
+        width: 25%;
+    }
+    .footer-area .copy-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .copy-content {
+        width: 100%;
+    }
+    }
+
+/* ///////////////////////////////////////////////////////////////////
+============================= END ================================== 
+////////////////////////////////////////////////////////////////////*/

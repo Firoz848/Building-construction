@@ -1,0 +1,512 @@
+/* ==========================================
+============== Google font ==================
+============================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* ========================================
+================= Common css ==============
+===========================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgb(0 0 0 / 55%);
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.para {
+    margin-bottom: 26px;
+}
+.heading {
+    margin-top: 43px;
+    text-align: center;
+}
+
+/* ============================================ 
+================ Header area ==================
+==============================================*/
+
+/* Topbar */
+.top-bar {
+    background: #f5f5f5;
+    padding: 8px 0px; 
+}
+.contact-area {
+    margin-right: 48px;
+}
+
+/* Menu area 
+==========================*/
+.main-menu .logo {
+    margin-bottom: 7px;
+}
+.main-menu {
+    margin-top: 5px;
+}
+.main-menu img {
+    height: 30px;
+    padding-bottom: 2px;
+}
+.main-menu .navbar-nav {
+    margin-right: 17px;
+}
+.main-menu .navbar {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.main-menu li {
+    text-align: center;
+    border-bottom: 2px solid rgb(207, 223, 239)
+}
+.main-menu .search-area {
+    margin-top: 2px;
+}
+
+/* Animation Navbar 
+=============================*/
+.nav-link {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 5px 20px;
+    padding-bottom: 0px;  
+}
+.nav-link .nav-animate {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background: red;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1; 
+}
+.nav-link:hover .nav-animate {
+    width: 300px;
+    height: 300px;
+}
+
+/* Sticky Navbar */
+.fixed-top {
+    background: #fff824;
+    margin-top: 0px;
+    transition: 0.9s;
+}
+
+/* ======================================
+================ Hero area ============== 
+========================================*/ 
+.hero-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(122, 122, 95, 0.5)),url("../img/building-heading.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.hero-body {
+    max-width: 71%;
+    padding-top: 43px;
+    height: 64vh;  
+}
+.hero-area .heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 41px;
+}
+.hero-area .heading, .text {
+    color: white;
+}
+.hero-area .hero-sub {
+    margin: 0;
+}
+.hero-area .hero-sub-heading {
+    padding-top: 6px;
+}
+/* Hero contact */
+.hero-contact {
+    background: #fab702;
+    height: 8vh;
+}
+.hero-contact h2 {
+    font-size: 18px;
+    margin-top: 14px;
+    color: white;
+}
+span.hero-link {
+    margin-left: 5px;
+    border-bottom: 2px solid black; 
+}
+.hero-link:hover {
+    color: rgb(255, 98, 14);
+}
+.hero-contact a {
+    text-decoration: none;
+}
+
+/* =======================================
+============= Service area ===============
+=========================================*/
+.service-heading {
+    margin-top: 43px;
+    text-align: center;
+    width: 100%;
+}
+.service-area {
+	/* height: 83vh; */
+	box-sizing: border-box;
+	overflow: hidden;
+    margin-bottom: 35px;
+}
+.service-para {
+    margin-bottom: 26px;
+}
+.service-heading h2 {
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Service card */
+.card {
+    box-shadow: 2px 2px #cbcccb;
+}
+.card img {
+    transition: 0.5s;
+}
+.card:hover img {
+    transform: scale(1.15);
+}
+.img-block {
+    overflow: hidden;
+}
+
+/* Card link */
+.service-area .card-link a {
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.5s;
+}
+.service-area .card-link a:hover {
+    color: #fab702;
+    border-bottom: 2px solid #fab702;
+    width: 10px;
+    height: 4px;
+}
+
+/* Media area */
+.content-area, .media {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.content {
+    margin-left: 63px;
+}
+.refurbishment-area video {
+    width: 100%;
+    height: 194px;
+}
+
+/* Refurbishment area */
+.refurbishment-area {
+    /* height: 42vw; */
+    background: #f8f8f8;
+}
+.refurbishment-area .icon img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.refurbishment-area .content {
+    margin-left: 86px;
+}
+
+/* ====================================
+============= Works area =========== 
+======================================*/
+.work-area {
+    /* height: 100vh; */
+    overflow: hidden;
+}
+.heading h2 {
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Filter */
+.filter {
+    text-align: center;
+    text-align: center;
+}
+.filter ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+.filter ul li a:hover {
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
+.filter ul li a {
+    padding: 5px 20px;
+    transition: 0.8s;
+    background: #4a94ed;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Gallery */
+.gallery img {
+    width: 100%;
+    border-radius: 3px;
+}
+.work-area .gallery {
+    margin-top: 26px;
+}
+.work-area .gallery .item {
+    padding: 2px;
+}
+.work-area,
+.general,
+.office,
+.health {
+    margin-top: 5px;;
+}
+
+/* ===================================
+============ Feedback area ===========
+=====================================*/
+
+/* Owl-carousel */
+.owl-carousel .owl-item img {
+    float: left;
+    display: block;
+    width: 26%;
+}
+.feedback-area .owl-para {
+    height: 17vh;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 12px;
+    padding-top: 11px;
+    display: block;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: rgb(223, 1, 252);
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: greenyellow;
+}
+.feedback-area .owl-items {
+    background: #f9f9f9;
+    margin-right: 8px;
+}
+
+/* Heading */
+.feedback-heading {
+    text-align: center;
+    margin-top: -1px;
+}
+.feedback-area .feedback {
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title */
+.feedback-area .sub-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* Company logo */
+.company-logo img {
+    width: 143px;
+    height: 79px;
+}
+.company-logo {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* =====================================
+============ Client details area =======
+=======================================*/
+.client-area {
+    background: #fab702;
+}
+.client-comment {
+    background: #f9f9f9;
+}
+.client-comment
+.main-client,
+.contact-button,
+.client-content,
+.client-para {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.client-comment .client-content {
+    padding-bottom: 5px;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+.client-comment, .client-para {
+    font-size: 12px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+} 
+
+/* Client button */
+.client-comment .contact-button {
+    padding-top: 20px;
+}
+.main-client {
+    border-left: 4px solid #fab702;
+}
+
+/* =====================================
+============== News area ===============
+=======================================*/
+.news-area {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.news-heading {
+    margin-top: 72px;
+    text-align: center;
+    width: 107%;
+    font-family: 'Montserrat', sans-serif;
+}
+.news-para {
+    margin-bottom: 26px;
+}
+.news-area .heading {
+    font-size: 1.50rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* News card */
+.card img {
+    transition: 0.5s;
+}
+.card:hover img {
+    transform: scale(1.15);
+}
+.img-block {
+    overflow: hidden;
+}
+/* .news-area .dream-card {
+    padding-bottom: 0;
+} */
+
+/* Card link */
+.card-link a {
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.5s;
+}
+.card-link a:hover {
+    color: #fab702;
+    border-bottom: 2px solid #fab702;
+    width: 10px;
+    height: 4px;
+}
+
+/* Sub title */
+.news-area .subtitle {
+    font-size: 11px;
+} 
+.news-area .card-body i {
+    margin-right: 5px;
+}
+
+/* ==========================================
+=============== Footer area =================
+===========================================*/
+.footer-area {
+    background: black;
+}
+.footer-area h2 {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.footer-area p {
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+.footer-area .icon::before {
+    content: ">>";
+    margin-right: 6px;
+}
+.footer-area .icon {
+    border-bottom: 2px solid rgb(55, 136, 37);
+}
+
+/* Recent news */
+.footer-area .news {
+    width: 43%;
+    height: 83px;
+}
+.footer-area .para {
+    font-size: 11px;
+    margin-left: 85px;
+    margin-bottom: 0;
+}
+.footer-area .sub-heading {
+    font-size: 8px;
+    margin-left: 7px;
+    display: inline-block;
+}
+/* Footer bottom */
+.footer-bottom {
+    background: #4c5b6d;
+}
+.footer-bottom li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 0;
+    font-size: 11px;
+}
+.footer-bottom .copy-right {
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////
+============================= END ==================================== 
+////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
